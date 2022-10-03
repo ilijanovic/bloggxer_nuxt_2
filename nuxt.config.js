@@ -1,12 +1,54 @@
+import sitemapRoutes from './sitemapRoutes'
+
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'bloggxernuxt2',
+    title:
+      'Bloggxer: Explore a wide range of topics such as fitness, technology and much more',
+
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'On bloggxer you will find blog articles about various interesting topics such as fitness, technology, cooking and much more.',
+      },
+
+      {
+        hid: 'og:site_name',
+        name: 'og:site_name',
+        content: 'Bloggxer',
+      },
+      {
+        hid: 'og:title',
+        name: 'og:title',
+        content:
+          'Bloggxer: Explore a wide range of topics such as fitness, technology and much more',
+      },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        content:
+          'On bloggxer you will find blog articles about various interesting topics such as fitness, technology, cooking and much more.',
+      },
+      {
+        hid: 'apple-mobile-web-app-title',
+        name: 'apple-mobile-web-app-title',
+        content:
+          'Bloggxer: Explore a wide range of topics such as fitness, technology and much more',
+      },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: `https://bloggxer.com`,
+      },
       { name: 'format-detection', content: 'telephone=no' },
+      {
+        name: 'theme-color',
+        content: '#7e22ce',
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
@@ -15,7 +57,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: ['~/plugins/jsonld'],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -27,6 +69,12 @@ export default {
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
   ],
+  sitemap: {
+    hostname: 'https://bloggxer.com', // you can hardcode website url here
+    routes() {
+      return sitemapRoutes()
+    },
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
@@ -36,6 +84,7 @@ export default {
     '@nuxtjs/pwa',
     '@nuxt/content',
     '@nuxtjs/robots',
+    '@nuxtjs/sitemap',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -48,9 +97,12 @@ export default {
   pwa: {
     manifest: {
       lang: 'en',
+      theme_color: '#7e22ce',
     },
   },
-
+  googleAnalytics: {
+    id: 'UA-222785513-2',
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
 }
