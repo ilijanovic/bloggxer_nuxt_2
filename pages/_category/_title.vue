@@ -1,8 +1,11 @@
 <template>
     <div>
-        <div class=" gap-2 flex lg:flex-row flex-col-reverse justify-evenly">
-            <nuxt-content class="prose mx-auto lg:prose-xl" :document="page"></nuxt-content>
-            <div class="flex mx-auto flex-col gap-2">
+        <div class="gap-2 flex lg:flex-row flex-col-reverse justify-around">
+            <div class="w-full justify-center flex">
+                <nuxt-content class="prose  lg:prose-xl" :document="page"></nuxt-content>
+            </div>
+
+            <div class="flex sticky top-0 mx-auto flex-col gap-2">
                 <a :href="'#'+toc.id" class="cursor-pointer" v-for="toc in page.toc">{{
                 toc.text
                 }}</a>
@@ -21,7 +24,8 @@ export default Vue.extend({
         let { category, title } = params
 
         const page = await $content(category + "/" + title).fetch()
-        console.log(page)
+
+
         return { page }
     },
 

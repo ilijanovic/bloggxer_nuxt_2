@@ -1,11 +1,12 @@
 <template>
 
-  <div class="flex flex-wrap gap-2">
+  <div class="flex flex-wrap justify-around gap-2">
     <nuxt-link v-for="content in contents" :key="content.slug" :to="content.path">
-      <div class="max-w-sm hover:shadow-lg flex flex-col gap-2 transition-all cursor-pointer border rounded p-4 w-full">
+      <div style="min-height: 250px"
+        class="max-w-sm hover:shadow-lg  flex flex-col gap-2 transition-all cursor-pointer border rounded p-4 w-full">
         <h3 class="mb-5 text-purple-800 font-semibold text-2xl">{{content.title}}</h3>
         <small class="text-gray-800">{{content.description}}</small>
-        <div class="flex items-center justify-between">
+        <div class="flex mt-auto items-center justify-between">
           <small class="text-gray-500">{{formatDate(content.updatedAt)}}</small>
           <Regular>Read</Regular>
         </div>
