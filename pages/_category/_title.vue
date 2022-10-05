@@ -47,8 +47,7 @@ export default Vue.extend({
         let { category, title } = params
 
         const page = await $content(category + "/" + title).fetch()
-
-        const related = await Promise.all(page.related.map((slug: string) => $content(category + "/" + slug).only(["title", "description", "path", "updatedAt"]).fetch()))
+        const related = await Promise.all(page.related.map((related: any) => $content(related.category + "/" + related.path).only(["title", "description", "path", "updatedAt"]).fetch()))
 
         return { page, related }
     },

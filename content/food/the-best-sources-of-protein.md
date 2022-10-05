@@ -1,7 +1,11 @@
 ---
 title: The best sources of protein
 description: Which protein sources (vegetable and animal) should I choose, and how can I increase the protein content through targeted food selection and use it for my healthy, balanced diet?
-related: [how-to-build-muscle-fast]
+
+related:
+    - path: how-to-build-muscle-fast
+      category: fitness
+
 keywords: [fitness, health, bodybuilding, food]
 ---
 

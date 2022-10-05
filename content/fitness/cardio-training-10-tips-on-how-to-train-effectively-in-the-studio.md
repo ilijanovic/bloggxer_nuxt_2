@@ -1,7 +1,11 @@
 ---
 title: Cardio training 10 tips on how to train effectively in the studio
 description: Cross trainers, treadmills, ergometers & Co. are ideal for building endurance and reducing fat. Here are the top tips to get the most out of your cardio workout at the gym.
-related: [how-to-build-muscle-fast]
+
+related:
+    - path: how-to-build-muscle-fast
+      category: fitness
+
 keywords: [fitness,cardio, workout]
 ---
 

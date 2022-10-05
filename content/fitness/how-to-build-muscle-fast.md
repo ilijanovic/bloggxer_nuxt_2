@@ -1,7 +1,12 @@
 ---
 title: How to build muscle fast
 description: Want to build muscle fast? Then you have to feed yourself properly and qualify properly. In this post, we show you 5 tips to help you reach your goal.
-related: [cardio-training-10-tips-on-how-to-train-effectively-in-the-studio, the-best-sources-of-protein]
+
+related:
+    - path: cardio-training-10-tips-on-how-to-train-effectively-in-the-studio
+      category: fitness
+    - path: the-best-sources-of-protein
+      category: food
 keywords: [fitness,muscle, bodybuilding]
 ---
 
@@ -37,7 +42,7 @@ It is therefore best to combine different protein-rich foods and also to integra
 
 Meat and dairy products are high in protein. It is important to buy products from responsible animal husbandry. Antibiotics and drug residues in chicken are just as unhealthy as highly processed sausages. Milk from cows that regularly graze on pastures contains better fats than milk from cows that spend their whole lives indoors and only eat concentrates.
 
-Read more about <nuxt-link to="/fitness/the-best-sources-of-protein">best sources of protein!</nuxt-link>
+Read more about <nuxt-link to="/food/the-best-sources-of-protein">best sources of protein!</nuxt-link>
 
 ### 2. Cover your calorie needs
 

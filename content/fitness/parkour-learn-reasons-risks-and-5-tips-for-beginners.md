@@ -1,7 +1,12 @@
 ---
 title: Learning parkour, reasons, risks and 5 tips for beginners
 description: Parkour is an exciting trend sport that you can do almost anywhere. But how do you learn these combinations? We explain how you learn Parkour and what you have to consider.
-related: [free-running-what-is-that, how-to-build-muscle-fast]
+
+related:
+    - path: how-to-build-muscle-fast
+      category: fitness
+    - path: free-running-what-is-that
+      category: fitness
 keywords: [fitness,parkour, beginner, jump, run]
 ---
 
