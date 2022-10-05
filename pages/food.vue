@@ -1,11 +1,8 @@
 <template>
     <div>
         <div class="max-w-5xl text-center font-semibold mx-auto my-5">
-            <p class="font-semibold my-5 text-gray-800 text-5xl">Food</p>
-            <p class="text-gray-800">Here you will find out everything you need to know about how to handle food
-                properly: Read what is important when it comes to purchasing, storing and preparing food so that healthy
-                nutrition can also be implemented successfully.
-            </p>
+            <h1 class="font-semibold my-5 text-gray-800 text-5xl">Food</h1>
+            <p class="text-gray-800">{{description}}</p>
         </div>
         <hr class="my-5">
         <div class="flex flex-wrap justify-around gap-2">
@@ -37,11 +34,66 @@ export default Vue.extend({
 
         const contents = await $content("food", { deep: true }).fetch()
 
-        return { contents }
+        return {
+            contents,
+            description: `Here you will find out everything you need to know about how to handle food
+                properly: Read what is important when it comes to purchasing, storing and preparing food so that healthy
+                nutrition can also be implemented successfully.` }
     },
     components: {
         regularVue,
         Regular
+    },
+    head() {
+        return {
+
+            //@ts-ignore
+            title: "Bloggxer - Read what is important when it comes to purchasing, storing and preparing food so that healthy nutrition can also be implemented successfully.",
+            meta: [
+                {
+                    hid: "keywords",
+                    name: "keywords",
+                    //@ts-ignore
+                    content: ["food", "eating", "health"]
+                },
+                {
+                    hid: 'description',
+                    name: 'description',
+                    //@ts-ignore
+                    content: this.description
+                },
+
+                {
+                    hid: 'og:site_name',
+                    name: 'og:site_name',
+                    content: "Bloggxer"
+                },
+                {
+                    hid: 'og:title',
+                    name: 'og:title',
+                    //@ts-ignore
+                    content: "Bloggxer - Read what is important when it comes to purchasing, storing and preparing food so that healthy nutrition can also be implemented successfully.",
+                },
+                {
+                    hid: 'og:description',
+                    name: 'og:description',
+                    //@ts-ignore
+                    content: this.description
+                },
+                {
+                    hid: 'apple-mobile-web-app-title',
+                    name: 'apple-mobile-web-app-title',
+                    //@ts-ignore
+                    content: "Bloggxer - Read what is important when it comes to purchasing, storing and preparing food so that healthy nutrition can also be implemented successfully.",
+                },
+                {
+                    hid: 'og:url',
+                    property: 'og:url',
+                    //@ts-ignore
+                    content: `https://bloggxer.com/food`,
+                },
+            ],
+        }
     },
     methods: {
         formatDate(date: string) {

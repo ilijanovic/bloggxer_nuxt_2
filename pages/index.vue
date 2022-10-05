@@ -3,7 +3,7 @@
   <div>
 
     <div class="flex flex-col gap-4">
-      <p class="font-semibold text-3xl">Topics</p>
+      <h1 class="font-semibold text-3xl">Topics</h1>
       <div class="flex flex-wrap gap-2">
         <nuxt-link :key="topic.path" v-for="topic in topics" :to="topic.path">
           <Regular>{{topic.text}}</Regular>
