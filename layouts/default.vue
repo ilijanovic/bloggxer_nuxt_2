@@ -2,7 +2,7 @@
 
     <div>
         <div class="border-b top-0 fixed flex w-full bg-white justify-between items-center z-10 p-10">
-            <nuxt-link class="text-3xl text-gray-700 font-semibold" to="/">
+            <nuxt-link class="text-3xl text-gray-800 font-semibold" to="/">
                 Bloggxer
             </nuxt-link>
             <div>

@@ -1,7 +1,7 @@
 ---
 title: How to build muscle fast
 description: Want to build muscle fast? Then you have to feed yourself properly and qualify properly. In this post, we show you 5 tips to help you reach your goal.
-
+related: [cardio-training-10-tips-on-how-to-train-effectively-in-the-studio]
 keywords: [fitness,muscle, bodybuilding]
 ---
 

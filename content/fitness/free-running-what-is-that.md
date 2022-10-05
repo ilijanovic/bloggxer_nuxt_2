@@ -1,7 +1,7 @@
 ---
 title: Free running, What is that?
 description: As the name suggests, free running is all about one thing, free movement through the environment. The way from A to B is mastered creatively. Free runners focus on free artistic movement. Obstacles presented by city and urban environments are overcome with acrobatic elements
-
+related: []
 keywords: [fitness, run, freerun]
 ---
 

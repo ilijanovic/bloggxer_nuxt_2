@@ -50,6 +50,13 @@ export default {
         content: '#7e22ce',
       },
     ],
+    script: [
+      {
+        crossorigin: 'anonymous',
+        async: true,
+        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7999730286556826',
+      },
+    ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
 
