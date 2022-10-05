@@ -12,7 +12,7 @@
             </div>
         </div>
         <hr class="my-5">
-        <p class="text-gray-800 my-5 text-center font-semibold text-3xl">Related articles</p>
+        <p v-if="related.length" class="text-gray-800 my-5 text-center font-semibold text-3xl">Related articles</p>
         <div class="flex  gap-4 flex-wrap  justify-center">
 
             <nuxt-link v-for="content in related" :key="content.slug" :to="content.path">
