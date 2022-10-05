@@ -56,9 +56,8 @@ export default Vue.extend({
         return {
             link: [{
                 rel: 'canonical',
-
                 //@ts-ignore
-                href: 'https://bloggxer.com/' + this.page.path
+                href: 'https://bloggxer.com' + this.page.path
             }],
             //@ts-ignore
             title: this.page.title,
