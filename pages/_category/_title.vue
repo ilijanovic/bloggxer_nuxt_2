@@ -21,7 +21,7 @@
                     <h3 class="mb-5 text-purple-800 font-semibold text-2xl">{{content.title}}</h3>
                     <small class="text-gray-800">{{content.description}}</small>
                     <div class="flex mt-auto items-center justify-between">
-                        <small class="text-gray-500">{{formatDate(content.updatedAt)}}</small>
+                        <small class="text-gray-500">{{formatDate(content.createdAt)}}</small>
                         <Regular>Read</Regular>
                     </div>
                 </div>
