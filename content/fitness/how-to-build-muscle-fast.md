@@ -1,7 +1,7 @@
 ---
 title: How to build muscle fast
 description: Want to build muscle fast? Then you have to feed yourself properly and qualify properly. In this post, we show you 5 tips to help you reach your goal.
-related: [cardio-training-10-tips-on-how-to-train-effectively-in-the-studio]
+related: [cardio-training-10-tips-on-how-to-train-effectively-in-the-studio, the-best-sources-of-protein]
 keywords: [fitness,muscle, bodybuilding]
 ---
 
@@ -36,6 +36,8 @@ For fast muscle building, you should consume about **1.7 g of protein per kg of 
 It is therefore best to combine different protein-rich foods and also to integrate plant-based protein sources. This is how you supply your body with all the amino acids. Protein shakes are the ideal supplement to cover your daily protein needs.
 
 Meat and dairy products are high in protein. It is important to buy products from responsible animal husbandry. Antibiotics and drug residues in chicken are just as unhealthy as highly processed sausages. Milk from cows that regularly graze on pastures contains better fats than milk from cows that spend their whole lives indoors and only eat concentrates.
+
+Read more about <nuxt-link to="/fitness/the-best-sources-of-protein">best sources of protein!</nuxt-link>
 
 ### 2. Cover your calorie needs
 
