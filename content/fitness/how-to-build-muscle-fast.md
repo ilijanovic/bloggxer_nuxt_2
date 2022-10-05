@@ -7,6 +7,8 @@ related:
       category: fitness
     - path: the-best-sources-of-protein
       category: food
+    - path: the-different-types-of-proteins-and-protein-types
+      category: food
 keywords: [fitness,muscle, bodybuilding]
 ---
 

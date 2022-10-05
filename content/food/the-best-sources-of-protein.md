@@ -5,6 +5,8 @@ description: Which protein sources (vegetable and animal) should I choose, and h
 related:
     - path: how-to-build-muscle-fast
       category: fitness
+    - path: the-different-types-of-proteins-and-protein-types
+      category: food
 
 keywords: [fitness, health, bodybuilding, food]
 ---
