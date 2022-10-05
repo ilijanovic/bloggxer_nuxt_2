@@ -76,9 +76,9 @@ This is where your body burns the most energy from carbohydrates and fats. You g
 
 ## 5. What shoes do I wear on the treadmill?
 
-Laufbänder sind zwar hervorragend gedämpft, du solltest trotzdem auf Sneakers verzichten und im Studio vernünftige Laufschuhe tragen (beim Kauf unbedingt ausführlich und professionell beraten lassen!).
+Treadmills are excellently cushioned, but you should still do without sneakers and wear sensible running shoes in the studio (if you buy them, you should definitely seek detailed and professional advice!).
 
-Je schwerer du bist, desto wichtiger sind gedämpfte Schuhe, da das eigene Gewicht permanent auf den Füßen lastet. Für bessere Kraftübertragung auf dem Ergometer ist eine möglichst steife Sohle
+The heavier you are, the more important cushioned shoes are, since your own weight is constantly on your feet. For better power transmission on the ergometer, the sole should be as stiff as possible
 
 ## 6. How much oxygen do I need during training?
 
