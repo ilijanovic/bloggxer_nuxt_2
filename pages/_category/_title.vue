@@ -49,12 +49,17 @@ export default Vue.extend({
         const page = await $content(category + "/" + title).fetch()
         const related = await Promise.all(page.related.map((related: any) => $content(related.category + "/" + related.path).only(["title", "description", "path", "updatedAt"]).fetch()))
 
-        return { page, related }
+        return { page, related, category }
     },
 
     head() {
         return {
+            link: [{
+                rel: 'canonical',
 
+                //@ts-ignore
+                href: 'https://bloggxer.com/' + this.page.path
+            }],
             //@ts-ignore
             title: this.page.title,
             meta: [

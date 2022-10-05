@@ -35,6 +35,15 @@ import dayjs from "dayjs"
 import regularVue from "~/components/buttons/regular.vue"
 import Regular from "~/components/buttons/regular.vue"
 export default Vue.extend({
+  head() {
+    return {
+      link: [{
+        rel: 'canonical',
+        //@ts-ignore
+        href: 'https://bloggxer.com'
+      }],
+    }
+  },
   async asyncData({ app: { $content } }) {
 
 

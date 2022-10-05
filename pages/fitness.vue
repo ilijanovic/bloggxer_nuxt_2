@@ -49,6 +49,11 @@ export default Vue.extend({
     },
     head() {
         return {
+            link: [{
+                rel: 'canonical',
+                //@ts-ignore
+                href: 'https://bloggxer.com/fitness'
+            }],
             //@ts-ignore
             title: "Bloggxer - Work out a perfect training plan that you can easily integrate into your everyday life.",
             meta: [

@@ -46,7 +46,11 @@ export default Vue.extend({
     },
     head() {
         return {
-
+            link: [{
+                rel: 'canonical',
+                //@ts-ignore
+                href: 'https://bloggxer.com/food'
+            }],
             //@ts-ignore
             title: "Bloggxer - Read what is important when it comes to purchasing, storing and preparing food so that healthy nutrition can also be implemented successfully.",
             meta: [
